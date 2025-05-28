@@ -1,0 +1,105 @@
+.section-projet-container {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: transparent;
+  border-radius: 15px;
+  user-select: none;
+  position: relative;
+}
+
+.project-card {
+  background-color: transparent;
+  border-radius: 12px;
+  padding: 1rem;
+  text-align: center;
+  position: relative;
+  cursor: default;
+  user-select: none;
+
+  &.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.4s ease, transform 0.4s ease;
+  }
+  &.fade-out {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.2s ease, transform 0.2s ease;
+  }
+}
+
+.project-image {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  transition: transform 0.3s ease;
+  user-select: none;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.project-title {
+  font-size: 1.8rem;
+  color: #4338ca;
+  margin: 0 0 0.25rem 0;
+  font-weight: 700;
+  user-select: text;
+}
+
+.project-index {
+  font-size: 0.9rem;
+  color: #777;
+  user-select: none;
+}
+
+.btn-next {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* le cercle animé */
+  .btn-circle-spin {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: 3px solid #4338ca;
+    border-top: 3px solid transparent;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    pointer-events: none;
+  }
+
+  /* flèche vers le haut */
+  .btn-arrow-up {
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 16px solid #4338ca;
+    z-index: 1;
+  }
+
+  &:focus {
+    outline: 3px solid #a1a0f7;
+    outline-offset: 2px;
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

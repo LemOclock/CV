@@ -1,0 +1,39 @@
+.contact-button {
+  position: fixed;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-family: Arial, sans-serif;
+  z-index: 9999;
+  user-select: none;
+
+  &:hover .contact-tooltip {
+    opacity: 1 !important;
+    pointer-events: auto !important;
+    transform: translateX(0) !important;
+  }
+}
+
+.contact-icon {
+  display: block;
+}
+
+.contact-tooltip {
+  margin-left: 10px;
+  padding: 6px 12px;
+  background-color: #4338ca;
+  color: white;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  white-space: nowrap;
+
+  opacity: 0;
+  pointer-events: none;
+  transform: translateX(-10px);
+  transition: all 0.3s ease;
+}
