@@ -2,7 +2,8 @@
   "name": "portfolio",
   "version": "1.0.0",
   "scripts": {
-    "start": "parcel public/index.html --open"
+    "start": "parcel public/index.html --open",
+    "build": "parcel build public/index.html"
   },
   "keywords": [],
   "author": "",
