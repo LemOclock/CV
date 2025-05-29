@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { io } from 'socket.io-client';
+import { FaDiscord } from 'react-icons/fa';
 import './DiscordChatBox.scss';
 
 const statusColors = {
@@ -15,16 +16,14 @@ export default function DiscordChatBox() {
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState('');
   const [socket, setSocket] = useState(null);
-  const [canSend, setCanSend] = useState(true);  // anti-spam
+  const [canSend, setCanSend] = useState(true);
 
   useEffect(() => {
-    // Récupérer le statut initial via l'API REST
     fetch('https://discord-bot-status-production-e187.up.railway.app/api/status')
       .then(res => res.json())
       .then(data => setStatus(data.status || 'offline'))
       .catch(() => setStatus('offline'));
 
-    // Connexion à Socket.io
     const newSocket = io('https://discord-bot-status-production-e187.up.railway.app');
     setSocket(newSocket);
 
@@ -32,7 +31,6 @@ export default function DiscordChatBox() {
       setMessages(prev => [...prev, msg]);
     });
 
-    // Écoute des mises à jour de statut en temps réel
     newSocket.on('statusUpdate', (newStatus) => {
       setStatus(newStatus);
     });
@@ -58,16 +56,14 @@ export default function DiscordChatBox() {
 
     setTimeout(() => {
       setCanSend(true);
-    }, 5000); // 5 secondes de cooldown
+    }, 5000);
   };
 
   return (
     <div className={`discord-chatbox ${isOpen ? 'open' : ''}`}>
       <div className="header" onClick={toggleOpen}>
-        <span
-          className="status-dot"
-          style={{ backgroundColor: statusColors[status] || 'gray' }}
-        />
+        <FaDiscord size={18} color="#7289da" />
+        <span className="status-dot" style={{ backgroundColor: statusColors[status] || 'gray' }} />
         <span className="status-text">
           {status === 'online' && 'En ligne'}
           {status === 'dnd' && 'Ne pas déranger'}
@@ -78,6 +74,10 @@ export default function DiscordChatBox() {
 
       {isOpen && (
         <div className="chat-window">
+          <div className="info-banner">
+            Tu m’envoies un message directement sur Discord 👋
+          </div>
+
           <div className="messages">
             {messages.length === 0 && <p className="no-msg">Pas de messages</p>}
             {messages.map((msg, i) => (
