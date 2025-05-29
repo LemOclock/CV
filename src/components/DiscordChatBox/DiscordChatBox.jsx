@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { io } from 'socket.io-client';
+import { FaDiscord } from 'react-icons/fa';
 import './DiscordChatBox.scss';
 
 const statusColors = {
@@ -16,35 +17,20 @@ export default function DiscordChatBox() {
   const [input, setInput] = useState('');
   const [socket, setSocket] = useState(null);
   const [canSend, setCanSend] = useState(true);
-  const [userId, setUserId] = useState('');
 
   useEffect(() => {
-    // Générer un UID unique si non présent
-    let uid = localStorage.getItem('chat_uid');
-    if (!uid) {
-      uid = Math.random().toString(36).slice(2, 10);
-      localStorage.setItem('chat_uid', uid);
-    }
-    setUserId(uid);
-
-    // Récupérer le statut initial (optionnel, peut être adapté à ton backend)
     fetch('https://discord-bot-status-production-e187.up.railway.app/api/status')
       .then(res => res.json())
       .then(data => setStatus(data.status || 'offline'))
       .catch(() => setStatus('offline'));
 
-    // Connexion socket.io
-    const newSocket = io('https://discord-bot-status-production-e187.up.railway.app', {
-      query: { uid }
-    });
+    const newSocket = io('https://discord-bot-status-production-e187.up.railway.app');
     setSocket(newSocket);
 
-    // Recevoir les messages destinés à cet utilisateur uniquement
-    newSocket.on('private message', (msg) => {
+    newSocket.on('chat message', (msg) => {
       setMessages(prev => [...prev, msg]);
     });
 
-    // Mise à jour du statut Discord
     newSocket.on('statusUpdate', (newStatus) => {
       setStatus(newStatus);
     });
@@ -63,26 +49,21 @@ export default function DiscordChatBox() {
       return;
     }
 
-    const msgObject = {
-      uid: userId,
-      content: input.trim(),
-    };
-
-    socket.emit('private message', msgObject);
+    socket.emit('chat message', input.trim());
     setMessages(prev => [...prev, { from: 'me', content: input.trim() }]);
     setInput('');
     setCanSend(false);
 
-    setTimeout(() => setCanSend(true), 5000);
+    setTimeout(() => {
+      setCanSend(true);
+    }, 5000);
   };
 
   return (
     <div className={`discord-chatbox ${isOpen ? 'open' : ''}`}>
       <div className="header" onClick={toggleOpen}>
-        <span
-          className="status-dot"
-          style={{ backgroundColor: statusColors[status] || 'gray' }}
-        />
+        <FaDiscord size={18} color="#7289da" />
+        <span className="status-dot" style={{ backgroundColor: statusColors[status] || 'gray' }} />
         <span className="status-text">
           {status === 'online' && 'En ligne'}
           {status === 'dnd' && 'Ne pas déranger'}
@@ -93,6 +74,10 @@ export default function DiscordChatBox() {
 
       {isOpen && (
         <div className="chat-window">
+          <div className="info-banner">
+            Tu m’envoies un message directement sur Discord 👋
+          </div>
+
           <div className="messages">
             {messages.length === 0 && <p className="no-msg">Pas de messages</p>}
             {messages.map((msg, i) => (
@@ -100,7 +85,7 @@ export default function DiscordChatBox() {
                 key={i}
                 className={`message ${msg.from === 'me' ? 'from-me' : 'from-other'}`}
               >
-                <strong>{msg.from === 'me' ? 'Moi' : msg.from} :</strong> {msg.content}
+                {msg.content}
               </div>
             ))}
           </div>

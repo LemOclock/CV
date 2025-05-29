@@ -37,7 +37,7 @@
 80C:\Users\Ben3\desktop\School\portfolio\node_modules\@parcel\workers\lib\index.js133929007938783205 0
 82C:\Users\Ben3\desktop\School\portfolio\node_modules\lmdb\bin\download-prebuilds.js133929007931802673 0
 84C:\Users\Ben3\desktop\School\portfolio\node_modules\@parcel\resolver-default\LICENSE133929007945554245 0
-43C:\Users\Ben3\desktop\School\portfolio\dist133929918254452655 1
+43C:\Users\Ben3\desktop\School\portfolio\dist133929928602704513 1
 102C:\Users\Ben3\desktop\School\portfolio\node_modules\engine.io-parser\build\esm\decodePacket.browser.js133929319989457467 0
 72C:\Users\Ben3\desktop\School\portfolio\node_modules\json5\lib\unicode.js133929007931087933 0
 101C:\Users\Ben3\desktop\School\portfolio\node_modules\@parcel\error-overlay\src\utils\getStackFrames.js133929007929839082 0
@@ -75,7 +75,7 @@
 42C:\Users\Ben3\desktop\School\portfolio\src133929230725838565 1
 104C:\Users\Ben3\desktop\School\portfolio\node_modules\scheduler\cjs\scheduler-unstable_mock.development.js133929007804633551 0
 69C:\Users\Ben3\desktop\School\portfolio\node_modules\is-glob\README.md133929007928581047 0
-88C:\Users\Ben3\desktop\School\portfolio\src\components\DiscordChatBox\DiscordChatBox.scss133929912040558202 0
+88C:\Users\Ben3\desktop\School\portfolio\src\components\DiscordChatBox\DiscordChatBox.scss133929928513709587 0
 96C:\Users\Ben3\desktop\School\portfolio\node_modules\caniuse-lite\data\features\variable-fonts.js133929007932870804 0
 114C:\Users\Ben3\desktop\School\portfolio\node_modules\engine.io-client\build\esm-debug\transports\polling-fetch.d.ts133929319990944563 0
 73C:\Users\Ben3\desktop\School\portfolio\node_modules\@parcel\optimizer-swc133929007945796422 1
@@ -202,7 +202,7 @@
 81C:\Users\Ben3\desktop\School\portfolio\node_modules\@parcel\error-overlay\LICENSE133929007929748470 0
 67C:\Users\Ben3\desktop\School\portfolio\node_modules\lmdb\caching.js133929007931772675 0
 72C:\Users\Ben3\desktop\School\portfolio\node_modules\semver\ranges\ltr.js133929007930645102 0
-87C:\Users\Ben3\desktop\School\portfolio\src\components\DiscordChatBox\DiscordChatBox.jsx133929918187689794 0
+87C:\Users\Ben3\desktop\School\portfolio\src\components\DiscordChatBox\DiscordChatBox.jsx133929928526601152 0
 64C:\Users\Ben3\desktop\School\portfolio\node_modules\@parcel\rust133929007932810020 1
 70C:\Users\Ben3\desktop\School\portfolio\node_modules\chrome-trace-event133929007929909081 1
 66C:\Users\Ben3\desktop\School\portfolio\node_modules\react-icons\sl133929912172985620 1
@@ -2508,7 +2508,7 @@
 105C:\Users\Ben3\desktop\School\portfolio\node_modules\@parcel\reporter-dev-server\lib\ServerReporter.js.map133929007951095853 0
 77C:\Users\Ben3\desktop\School\portfolio\node_modules\chalk\source\templates.js133929007943890217 0
 69C:\Users\Ben3\desktop\School\portfolio\node_modules\caniuse-lite\data133929007929637885 1
-66C:\Users\Ben3\desktop\School\portfolio\dist\public.ad93b51f.js.map133929918254442651 0
+66C:\Users\Ben3\desktop\School\portfolio\dist\public.ad93b51f.js.map133929928602694512 0
 79C:\Users\Ben3\desktop\School\portfolio\node_modules\@parcel\workers\src\threads133929007938894161 1
 85C:\Users\Ben3\desktop\School\portfolio\node_modules\caniuse-lite\data\features\eot.js133929007929591758 0
 77C:\Users\Ben3\desktop\School\portfolio\node_modules\caniuse-lite\package.json133929007933248795 0
@@ -4227,6 +4227,6 @@
 83C:\Users\Ben3\desktop\School\portfolio\node_modules\.bin\update-browserslist-db.cmd133929007953067690 0
 83C:\Users\Ben3\desktop\School\portfolio\node_modules\.bin\update-browserslist-db.ps1133929007953067690 0
 64C:\Users\Ben3\desktop\School\portfolio\dist\favicon.7155ca86.ico133929912261523654 0
-62C:\Users\Ben3\desktop\School\portfolio\dist\public.ad93b51f.js133929918254412652 0
+62C:\Users\Ben3\desktop\School\portfolio\dist\public.ad93b51f.js133929928602634513 0
 63C:\Users\Ben3\desktop\School\portfolio\dist\public.d91c94e1.css133929912261953657 0
 67C:\Users\Ben3\desktop\School\portfolio\dist\public.d91c94e1.css.map133929912261963657 0
