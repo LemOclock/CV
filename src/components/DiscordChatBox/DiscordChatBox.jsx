@@ -27,7 +27,7 @@ export default function DiscordChatBox() {
     }
     setUserId(uid);
 
-    // Récupérer le statut initial
+    // Récupérer le statut initial (optionnel, peut être adapté à ton backend)
     fetch('https://discord-bot-status-production-e187.up.railway.app/api/status')
       .then(res => res.json())
       .then(data => setStatus(data.status || 'offline'))
@@ -100,7 +100,7 @@ export default function DiscordChatBox() {
                 key={i}
                 className={`message ${msg.from === 'me' ? 'from-me' : 'from-other'}`}
               >
-                {msg.content}
+                <strong>{msg.from === 'me' ? 'Moi' : msg.from} :</strong> {msg.content}
               </div>
             ))}
           </div>
