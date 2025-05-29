@@ -15,7 +15,7 @@ export default function IntroSection() {
         <p>On arrête jamais d'apprendre !</p>
         <p>
           Pour faire suite à ma formation de Développeur web et accessibilité à
-          l'école O'clock je recherche un stage de 3 mois.
+          l'école O'clock je suis à la recherche d'un stage.
         </p>
       </div>
     </section>

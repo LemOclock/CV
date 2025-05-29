@@ -1,4 +1,4 @@
-4231
+4232
 61C:\Users\Ben3\desktop\School\portfolio\node_modules\@mischnic133929007926287461 1
 86C:\Users\Ben3\desktop\School\portfolio\node_modules\@parcel\reporter-cli\src\render.js133929007951475675 0
 69C:\Users\Ben3\desktop\School\portfolio\node_modules\lmdb\src\misc.cpp133929007931541270 0
@@ -37,7 +37,7 @@
 80C:\Users\Ben3\desktop\School\portfolio\node_modules\@parcel\workers\lib\index.js133929007938783205 0
 82C:\Users\Ben3\desktop\School\portfolio\node_modules\lmdb\bin\download-prebuilds.js133929007931802673 0
 84C:\Users\Ben3\desktop\School\portfolio\node_modules\@parcel\resolver-default\LICENSE133929007945554245 0
-43C:\Users\Ben3\desktop\School\portfolio\dist133929928602704513 1
+43C:\Users\Ben3\desktop\School\portfolio\dist133929965285676399 1
 102C:\Users\Ben3\desktop\School\portfolio\node_modules\engine.io-parser\build\esm\decodePacket.browser.js133929319989457467 0
 72C:\Users\Ben3\desktop\School\portfolio\node_modules\json5\lib\unicode.js133929007931087933 0
 101C:\Users\Ben3\desktop\School\portfolio\node_modules\@parcel\error-overlay\src\utils\getStackFrames.js133929007929839082 0
@@ -59,24 +59,24 @@
 92C:\Users\Ben3\desktop\School\portfolio\node_modules\caniuse-lite\data\features\css-canvas.js133929007928914701 0
 102C:\Users\Ben3\desktop\School\portfolio\node_modules\@parcel\transformer-react-refresh-wrap\lib\helpers133929007932770021 1
 70C:\Users\Ben3\desktop\School\portfolio\node_modules\msgpackr\stream.js133929007930705101 0
-45C:\Users\Ben3\desktop\School\portfolio\public133929085295986302 1
+45C:\Users\Ben3\desktop\School\portfolio\public133929955533957396 1
 83C:\Users\Ben3\desktop\School\portfolio\node_modules\caniuse-lite\data\regions\TV.js133929007932502590 0
-85C:\Users\Ben3\desktop\School\portfolio\src\components\Portfoliogrid\PortfolioGrid.jsx133929235105591599 0
+85C:\Users\Ben3\desktop\School\portfolio\src\components\Portfoliogrid\PortfolioGrid.jsx133929963129860033 0
 73C:\Users\Ben3\desktop\School\portfolio\node_modules\readdirp\esm\index.js133929009247486279 0
 105C:\Users\Ben3\desktop\School\portfolio\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mtest_enc2.c133929007931389960 0
 113C:\Users\Ben3\desktop\School\portfolio\node_modules\@parcel\package-manager\test\fixtures\has-a-not-yet-installed133929007946059263 1
 77C:\Users\Ben3\desktop\School\portfolio\src\components\TechLogos\TechLogos.jsx133929227236520575 0
 69C:\Users\Ben3\desktop\School\portfolio\node_modules\commander\esm.mjs133929007944415415 0
 78C:\Users\Ben3\desktop\School\portfolio\node_modules\semver\functions\coerce.js133929007930502792 0
+69C:\Users\Ben3\desktop\School\portfolio\node_modules\is-glob\README.md133929007928581047 0
+88C:\Users\Ben3\desktop\School\portfolio\src\components\DiscordChatBox\DiscordChatBox.scss133929928513709587 0
+96C:\Users\Ben3\desktop\School\portfolio\node_modules\caniuse-lite\data\features\variable-fonts.js133929007932870804 0
 68C:\Users\Ben3\desktop\School\portfolio\node_modules\engine.io-parser133929319989527466 1
 90C:\Users\Ben3\desktop\School\portfolio\node_modules\ordered-binary\.nyc_output\processinfo133929007927637437 1
 86C:\Users\Ben3\desktop\School\portfolio\node_modules\@parcel\packager-wasm\package.json133929007944606323 0
 84C:\Users\Ben3\desktop\School\portfolio\node_modules\lmdb\dependencies\lmdb\libraries133929007930795783 1
 42C:\Users\Ben3\desktop\School\portfolio\src133929230725838565 1
 104C:\Users\Ben3\desktop\School\portfolio\node_modules\scheduler\cjs\scheduler-unstable_mock.development.js133929007804633551 0
-69C:\Users\Ben3\desktop\School\portfolio\node_modules\is-glob\README.md133929007928581047 0
-88C:\Users\Ben3\desktop\School\portfolio\src\components\DiscordChatBox\DiscordChatBox.scss133929928513709587 0
-96C:\Users\Ben3\desktop\School\portfolio\node_modules\caniuse-lite\data\features\variable-fonts.js133929007932870804 0
 114C:\Users\Ben3\desktop\School\portfolio\node_modules\engine.io-client\build\esm-debug\transports\polling-fetch.d.ts133929319990944563 0
 73C:\Users\Ben3\desktop\School\portfolio\node_modules\@parcel\optimizer-swc133929007945796422 1
 69C:\Users\Ben3\desktop\School\portfolio\node_modules\sass\sass.dart.js133929009250975013 0
@@ -186,17 +186,17 @@
 65C:\Users\Ben3\desktop\School\portfolio\node_modules\react-refresh133929007929224234 1
 101C:\Users\Ben3\desktop\School\portfolio\node_modules\@parcel\transformer-image\src\ImageTransformer.js133929007941642376 0
 64C:\Users\Ben3\desktop\School\portfolio\node_modules\browserslist133929007931239317 1
-83C:\Users\Ben3\desktop\School\portfolio\src\components\IntroSection\IntroSection.jsx133929217783550960 0
-97C:\Users\Ben3\desktop\School\portfolio\node_modules\caniuse-lite\data\features\css-caret-color.js133929007928914701 0
-78C:\Users\Ben3\desktop\School\portfolio\node_modules\socket.io-parser\build\esm133929319990594565 1
-85C:\Users\Ben3\desktop\School\portfolio\node_modules\lmdb\dependencies\lz4\lib\LICENSE133929007930856535 0
+83C:\Users\Ben3\desktop\School\portfolio\src\components\IntroSection\IntroSection.jsx133929963431610070 0
 72C:\Users\Ben3\desktop\School\portfolio\node_modules\react\jsx-runtime.js133929007804633551 0
+97C:\Users\Ben3\desktop\School\portfolio\node_modules\caniuse-lite\data\features\css-caret-color.js133929007928914701 0
+85C:\Users\Ben3\desktop\School\portfolio\node_modules\lmdb\dependencies\lz4\lib\LICENSE133929007930856535 0
+78C:\Users\Ben3\desktop\School\portfolio\node_modules\socket.io-parser\build\esm133929319990594565 1
 84C:\Users\Ben3\desktop\School\portfolio\node_modules\react-dom\static.react-server.js133929007805624330 0
 101C:\Users\Ben3\desktop\School\portfolio\node_modules\@parcel\core\test\fixtures\custom-targets-distdir133929007948217896 1
 83C:\Users\Ben3\desktop\School\portfolio\node_modules\caniuse-lite\data\regions\LA.js133929007930715782 0
 87C:\Users\Ben3\desktop\School\portfolio\node_modules\engine.io-parser\build\esm\index.js133929319989507465 0
 139C:\Users\Ben3\desktop\School\portfolio\node_modules\@parcel\core\test\fixtures\plugins\node_modules\parcel-transformer-bad-engines\index.js133929007947713372 0
-84C:\Users\Ben3\desktop\School\portfolio\src\components\IntroSection\IntroSection.scss133929217860897573 0
+84C:\Users\Ben3\desktop\School\portfolio\src\components\IntroSection\IntroSection.scss133929964963381437 0
 76C:\Users\Ben3\desktop\School\portfolio\node_modules\react-icons\ai\index.mjs133929912170055605 0
 84C:\Users\Ben3\desktop\School\portfolio\node_modules\@parcel\packager-js\package.json133929007945313369 0
 81C:\Users\Ben3\desktop\School\portfolio\node_modules\@parcel\error-overlay\LICENSE133929007929748470 0
@@ -223,6 +223,13 @@
 97C:\Users\Ben3\desktop\School\portfolio\node_modules\socket.io-client\build\esm-debug\manager.d.ts133929319990654566 0
 86C:\Users\Ben3\desktop\School\portfolio\src\components\ContactButton\ContactButton.scss133929218966102376 0
 82C:\Users\Ben3\desktop\School\portfolio\node_modules\@parcel\core\lib\AssetGraph.js133929007947441074 0
+77C:\Users\Ben3\desktop\School\portfolio\node_modules\type-fest\ts41\index.d.ts133929007927887447 0
+79C:\Users\Ben3\desktop\School\portfolio\node_modules\react-icons\cg\package.json133929912169885598 0
+83C:\Users\Ben3\desktop\School\portfolio\node_modules\caniuse-lite\data\regions\KN.js133929007930665096 0
+95C:\Users\Ben3\desktop\School\portfolio\node_modules\@parcel\packager-wasm\lib\wasm-sourcemap.js133929007944596321 0
+63C:\Users\Ben3\desktop\School\portfolio\node_modules\detect-libc133929007929798467 1
+102C:\Users\Ben3\desktop\School\portfolio\node_modules\engine.io-client\build\esm-debug\globals.node.d.ts133929319990894563 0
+68C:\Users\Ben3\desktop\School\portfolio\public\BENOIT LEMAISTRE-1.pdf133929947270021413 0
 58C:\Users\Ben3\desktop\School\portfolio\node_modules\dotenv133929007931239317 1
 86C:\Users\Ben3\desktop\School\portfolio\node_modules\@parcel\workers\lib\core-worker.js133929007938723203 0
 101C:\Users\Ben3\desktop\School\portfolio\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mtest6.c133929007931460533 0
@@ -234,9 +241,9 @@
 83C:\Users\Ben3\desktop\School\portfolio\node_modules\caniuse-lite\data\regions\DK.js133929007929512275 0
 86C:\Users\Ben3\desktop\School\portfolio\node_modules\caniuse-lite\data\features\cors.js133929007928833944 0
 56C:\Users\Ben3\desktop\School\portfolio\public\index.html133929151493579472 0
-108C:\Users\Ben3\desktop\School\portfolio\node_modules\scheduler\cjs\scheduler-unstable_post_task.production.js133929007804663537 0
-90C:\Users\Ben3\desktop\School\portfolio\node_modules\@parcel\core\lib\public\Environment.js133929007947672628 0
 90C:\Users\Ben3\desktop\School\portfolio\node_modules\@parcel\transformer-babel\lib\types.js133929007943128062 0
+90C:\Users\Ben3\desktop\School\portfolio\node_modules\@parcel\core\lib\public\Environment.js133929007947672628 0
+108C:\Users\Ben3\desktop\School\portfolio\node_modules\scheduler\cjs\scheduler-unstable_post_task.production.js133929007804663537 0
 104C:\Users\Ben3\desktop\School\portfolio\node_modules\@swc\helpers\_\_class_private_field_get\package.json133929007931379963 0
 78C:\Users\Ben3\desktop\School\portfolio\node_modules\color-convert\CHANGELOG.md133929007928003783 0
 78C:\Users\Ben3\desktop\School\portfolio\node_modules\source-map-js\package.json133929009248718035 0
@@ -278,12 +285,6 @@
 72C:\Users\Ben3\desktop\School\portfolio\node_modules\safe-buffer\index.js133929007928193792 0
 57C:\Users\Ben3\desktop\School\portfolio\node_modules\debug133929319990464569 1
 77C:\Users\Ben3\desktop\School\portfolio\node_modules\supports-color\browser.js133929007928003783 0
-77C:\Users\Ben3\desktop\School\portfolio\node_modules\type-fest\ts41\index.d.ts133929007927887447 0
-79C:\Users\Ben3\desktop\School\portfolio\node_modules\react-icons\cg\package.json133929912169885598 0
-83C:\Users\Ben3\desktop\School\portfolio\node_modules\caniuse-lite\data\regions\KN.js133929007930665096 0
-95C:\Users\Ben3\desktop\School\portfolio\node_modules\@parcel\packager-wasm\lib\wasm-sourcemap.js133929007944596321 0
-63C:\Users\Ben3\desktop\School\portfolio\node_modules\detect-libc133929007929798467 1
-102C:\Users\Ben3\desktop\School\portfolio\node_modules\engine.io-client\build\esm-debug\globals.node.d.ts133929319990894563 0
 65C:\Users\Ben3\desktop\School\portfolio\node_modules\dotenv-expand133929007931077936 1
 102C:\Users\Ben3\desktop\School\portfolio\node_modules\@parcel\runtime-js\lib\helpers\node\wasm-loader.js133929007944031643 0
 86C:\Users\Ben3\desktop\School\portfolio\node_modules\sass\types\logger\source_span.d.ts133929009251167294 0
@@ -656,7 +657,6 @@
 72C:\Users\Ben3\desktop\School\portfolio\node_modules\react-icons\index.js133929912167625553 0
 99C:\Users\Ben3\desktop\School\portfolio\node_modules\socket.io-parser\build\esm-debug\is-binary.d.ts133929319990594565 0
 87C:\Users\Ben3\desktop\School\portfolio\node_modules\utility-types\dist\utility-types.js133929007928994707 0
-105C:\Users\Ben3\desktop\School\portfolio\node_modules\react-refresh\cjs\react-refresh-runtime.production.js133929007929203629 0
 102C:\Users\Ben3\desktop\School\portfolio\node_modules\engine.io-client\build\esm\transports\websocket.js133929319990774565 0
 85C:\Users\Ben3\desktop\School\portfolio\node_modules\@swc\helpers\_\index\package.json133929007932060055 0
 91C:\Users\Ben3\desktop\School\portfolio\node_modules\utility-types\dist\utility-types.js.map133929007929015456 0
@@ -819,7 +819,7 @@
 94C:\Users\Ben3\desktop\School\portfolio\node_modules\caniuse-lite\data\features\border-image.js133929007928551049 0
 77C:\Users\Ben3\desktop\School\portfolio\node_modules\tslib\CopyrightNotice.txt133929007928463791 0
 75C:\Users\Ben3\desktop\School\portfolio\node_modules\react-icons\go\index.js133929912167175554 0
-54C:\Users\Ben3\desktop\School\portfolio\dist\index.html133929912262433656 0
+54C:\Users\Ben3\desktop\School\portfolio\dist\index.html133929965285615204 0
 83C:\Users\Ben3\desktop\School\portfolio\node_modules\caniuse-lite\data\regions\BR.js133929007928581047 0
 101C:\Users\Ben3\desktop\School\portfolio\node_modules\@parcel\runtime-js\lib\helpers\node\css-loader.js133929007943920389 0
 80C:\Users\Ben3\desktop\School\portfolio\node_modules\@swc\helpers\_\_ts_generator133929007931973465 1
@@ -1364,6 +1364,7 @@
 106C:\Users\Ben3\desktop\School\portfolio\node_modules\react-refresh\cjs\react-refresh-runtime.development.js133929007929193630 0
 101C:\Users\Ben3\desktop\School\portfolio\node_modules\@swc\helpers\cjs\_initializer_define_property.cjs133929007930121098 0
 76C:\Users\Ben3\desktop\School\portfolio\node_modules\nullthrows\nullthrows.js133929007931722673 0
+105C:\Users\Ben3\desktop\School\portfolio\node_modules\react-refresh\cjs\react-refresh-runtime.production.js133929007929203629 0
 66C:\Users\Ben3\desktop\School\portfolio\node_modules\react-icons\ai133929912172665597 1
 104C:\Users\Ben3\desktop\School\portfolio\node_modules\caniuse-lite\data\features\css-boxdecorationbreak.js133929007928903961 0
 93C:\Users\Ben3\desktop\School\portfolio\node_modules\caniuse-lite\data\features\textcontent.js133929007932361973 0
@@ -1938,8 +1939,6 @@
 96C:\Users\Ben3\desktop\School\portfolio\node_modules\lmdb\node_modules\node-addon-api\common.gypi133929007947864052 0
 103C:\Users\Ben3\desktop\School\portfolio\node_modules\caniuse-lite\data\features\background-attachment.js133929007928313790 0
 96C:\Users\Ben3\desktop\School\portfolio\node_modules\lmdb\node_modules\node-addon-api\except.gypi133929007947864052 0
-79C:\Users\Ben3\desktop\School\portfolio\node_modules\@swc\helpers\_\_await_value133929007931239317 1
-102C:\Users\Ben3\desktop\School\portfolio\node_modules\caniuse-lite\data\features\high-resolution-time.js133929007930181100 0
 97C:\Users\Ben3\desktop\School\portfolio\node_modules\lmdb\node_modules\node-addon-api\node_api.gyp133929007947864052 0
 75C:\Users\Ben3\desktop\School\portfolio\node_modules\browserslist\index.d.ts133929007931249316 0
 91C:\Users\Ben3\desktop\School\portfolio\node_modules\caniuse-lite\data\features\atob-btoa.js133929007928243791 0
@@ -2508,7 +2507,7 @@
 105C:\Users\Ben3\desktop\School\portfolio\node_modules\@parcel\reporter-dev-server\lib\ServerReporter.js.map133929007951095853 0
 77C:\Users\Ben3\desktop\School\portfolio\node_modules\chalk\source\templates.js133929007943890217 0
 69C:\Users\Ben3\desktop\School\portfolio\node_modules\caniuse-lite\data133929007929637885 1
-66C:\Users\Ben3\desktop\School\portfolio\dist\public.ad93b51f.js.map133929928602694512 0
+66C:\Users\Ben3\desktop\School\portfolio\dist\public.ad93b51f.js.map133929965285666402 0
 79C:\Users\Ben3\desktop\School\portfolio\node_modules\@parcel\workers\src\threads133929007938894161 1
 85C:\Users\Ben3\desktop\School\portfolio\node_modules\caniuse-lite\data\features\eot.js133929007929591758 0
 77C:\Users\Ben3\desktop\School\portfolio\node_modules\caniuse-lite\package.json133929007933248795 0
@@ -2906,6 +2905,8 @@
 104C:\Users\Ben3\desktop\School\portfolio\node_modules\caniuse-lite\data\features\getelementsbyclassname.js133929007930060512 0
 86C:\Users\Ben3\desktop\School\portfolio\node_modules\caniuse-lite\data\features\hevc.js133929007930171100 0
 88C:\Users\Ben3\desktop\School\portfolio\node_modules\caniuse-lite\data\features\hidden.js133929007930181100 0
+79C:\Users\Ben3\desktop\School\portfolio\node_modules\@swc\helpers\_\_await_value133929007931239317 1
+102C:\Users\Ben3\desktop\School\portfolio\node_modules\caniuse-lite\data\features\high-resolution-time.js133929007930181100 0
 89C:\Users\Ben3\desktop\School\portfolio\node_modules\caniuse-lite\data\features\history.js133929007930191099 0
 100C:\Users\Ben3\desktop\School\portfolio\node_modules\caniuse-lite\data\features\html-media-capture.js133929007930211624 0
 88C:\Users\Ben3\desktop\School\portfolio\node_modules\@parcel\core\lib\summarizeRequest.js133929007947974856 0
@@ -4226,7 +4227,7 @@
 79C:\Users\Ben3\desktop\School\portfolio\node_modules\.bin\update-browserslist-db133929007953067690 0
 83C:\Users\Ben3\desktop\School\portfolio\node_modules\.bin\update-browserslist-db.cmd133929007953067690 0
 83C:\Users\Ben3\desktop\School\portfolio\node_modules\.bin\update-browserslist-db.ps1133929007953067690 0
-64C:\Users\Ben3\desktop\School\portfolio\dist\favicon.7155ca86.ico133929912261523654 0
-62C:\Users\Ben3\desktop\School\portfolio\dist\public.ad93b51f.js133929928602634513 0
-63C:\Users\Ben3\desktop\School\portfolio\dist\public.d91c94e1.css133929912261953657 0
-67C:\Users\Ben3\desktop\School\portfolio\dist\public.d91c94e1.css.map133929912261963657 0
+64C:\Users\Ben3\desktop\School\portfolio\dist\favicon.7155ca86.ico133929965284793796 0
+62C:\Users\Ben3\desktop\School\portfolio\dist\public.ad93b51f.js133929965285625184 0
+63C:\Users\Ben3\desktop\School\portfolio\dist\public.d91c94e1.css133929965284793796 0
+67C:\Users\Ben3\desktop\School\portfolio\dist\public.d91c94e1.css.map133929965284955277 0
