@@ -3,12 +3,12 @@ import "./SectionProjet.scss";
 
 const projects = [
   {
-    title: "Projet 1",
+    title: "Portfolio",
     imageUrl: "https://i.imgur.com/u7PqwxR.png",
   },
   {
-    title: "Projet 2",
-    imageUrl: "https://via.placeholder.com/600x400?text=Projet+2",
+    title: "Projet de fin de formation (en cours)",
+    imageUrl: "https://i.imgur.com/TAG5KgH.png",
   },
   {
     title: "Projet 3",
