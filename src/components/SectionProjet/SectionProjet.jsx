@@ -8,7 +8,7 @@ const projects = [
   },
   {
     title: "Projet de fin de formation (en cours)",
-    imageUrl: "https://i.imgur.com/TAG5KgH.png",
+    imageUrl: "https://i.imgur.com/zSqDhrd.png",
   },
   {
     title: "Projet 3",
