@@ -49,6 +49,47 @@
   user-select: text;
 }
 
+.project-description {
+  font-size: 1rem;
+  color: #4a5568;
+  margin: 0.5rem 0 1rem 0;
+  padding: 0 1rem;
+  text-align: center;
+  line-height: 1.5;
+  font-style: italic;
+  opacity: 0.9;
+  user-select: text;
+
+  @media (max-width: 768px) {
+    font-size: 0.9rem;
+    padding: 0 0.5rem;
+  }
+}
+
+.project-link {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #4338ca;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin: 0.5rem 0;
+  transition: all 0.3s ease;
+  user-select: none;
+
+  &:hover {
+    background-color: #3730a3;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(67, 56, 202, 0.3);
+  }
+
+  &:active {
+    transform: translateY(0);
+  }
+}
+
 .project-index {
   font-size: 0.9rem;
   color: #777;

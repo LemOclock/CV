@@ -1,17 +1,36 @@
 // Couleurs principales
-$color-primary: #4338ca;
-$color-primary-light: #6059ff;
-$color-secondary: #f97316; // orange
-$color-bg: #ececec;
-$color-bg-light: #1e1e2f;
-$color-text: #ddd;
-$color-text-muted: #aaa;
-$color-border: #2a2a3f;
+$color-primary: #667eea;
+$color-primary-light: #764ba2;
+$color-secondary: #f093fb;
+$color-accent: #ffeaa7;
+$color-bg: #f8fafc;
+$color-bg-dark: #1a202c;
+$color-text: #2d3748;
+$color-text-light: #718096;
+$color-text-muted: #a0aec0;
+$color-border: #e2e8f0;
+$color-white: #ffffff;
+$color-glass: rgba(255, 255, 255, 0.25);
 
 // Polices
-$font-main: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+$font-main: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+$font-heading: 'Poppins', 'Segoe UI', sans-serif;
 
 // Tailles & espacements
-$border-radius: 12px;
-$padding-main: 1rem;
-$gap-main: 1rem;
+$border-radius: 20px;
+$border-radius-small: 12px;
+$padding-main: 1.5rem;
+$padding-small: 1rem;
+$gap-main: 1.5rem;
+$gap-small: 1rem;
+
+// Ombres
+$shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.05);
+$shadow-md: 0 8px 32px rgba(0, 0, 0, 0.1);
+$shadow-lg: 0 12px 40px rgba(0, 0, 0, 0.15);
+$shadow-glass: 0 8px 32px rgba(31, 38, 135, 0.37);
+
+// Transitions
+$transition-fast: 0.2s ease;
+$transition-normal: 0.3s ease;
+$transition-slow: 0.5s ease;

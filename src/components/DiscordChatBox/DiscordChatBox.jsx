@@ -19,20 +19,47 @@ export default function DiscordChatBox() {
   const [canSend, setCanSend] = useState(true);
 
   useEffect(() => {
-    fetch('https://discord-bot-status-production-e187.up.railway.app/api/status')
-      .then(res => res.json())
-      .then(data => setStatus(data.status || 'offline'))
-      .catch(() => setStatus('offline'));
+    const DISCORD_API_URL = 'https://discord-bot-status-production-e187.up.railway.app';
 
-    const newSocket = io('https://discord-bot-status-production-e187.up.railway.app');
+    if (!DISCORD_API_URL.startsWith('https://')) {
+      console.error('URL non-sécurisée détectée');
+      setStatus('offline');
+      return;
+    }
+
+    fetch(`${DISCORD_API_URL}/api/status`)
+      .then(res => {
+        if (!res.ok) throw new Error('Erreur réseau');
+        return res.json();
+      })
+      .then(data => setStatus(data.status || 'offline'))
+      .catch((error) => {
+        console.error('Erreur de connexion Discord:', error);
+        setStatus('offline');
+      });
+
+    const newSocket = io(DISCORD_API_URL, {
+      timeout: 2000,
+      forceNew: true
+    });
     setSocket(newSocket);
 
     newSocket.on('chat message', (msg) => {
-      setMessages(prev => [...prev, msg]);
+      if (typeof msg === 'object' && msg.content) {
+        const sanitizedMsg = {
+          ...msg,
+          content: String(msg.content).slice(0, 500) // Limite de 500 caractères
+        };
+        setMessages(prev => [...prev, sanitizedMsg]);
+      }
     });
 
     newSocket.on('statusUpdate', (newStatus) => {
-      setStatus(newStatus);
+      // Validation du statut
+      const validStatuses = ['online', 'dnd', 'offline', 'idle'];
+      if (validStatuses.includes(newStatus)) {
+        setStatus(newStatus);
+      }
     });
 
     return () => {
@@ -45,18 +72,27 @@ export default function DiscordChatBox() {
   const sendMessage = () => {
     if (!input.trim() || !socket) return;
     if (!canSend) {
-      alert("Merci d'attendre avant d'envoyer un nouveau message.");
+      alert("Merci d'attendre 2 secondes avant d'envoyer un nouveau message.");
       return;
     }
 
-    socket.emit('chat message', input.trim());
-    setMessages(prev => [...prev, { from: 'me', content: input.trim() }]);
+    // Validation et sanitisation de l'input
+    const sanitizedInput = input.trim().slice(0, 200); // Limite à 200 caractères
+    const forbiddenPatterns = /<script|javascript:|data:/i;
+
+    if (forbiddenPatterns.test(sanitizedInput)) {
+      alert("Nop");
+      return;
+    }
+
+    socket.emit('chat message', sanitizedInput);
+    setMessages(prev => [...prev, { from: 'me', content: sanitizedInput }]);
     setInput('');
     setCanSend(false);
 
     setTimeout(() => {
       setCanSend(true);
-    }, 5000);
+    }, 2000);
   };
 
   return (
@@ -75,7 +111,7 @@ export default function DiscordChatBox() {
       {isOpen && (
         <div className="chat-window">
           <div className="info-banner">
-            Tu m’envoies un message directement sur Discord 👋
+            Tu m’envoies un message directement sur Discord. Si je ne réponds pas, n'hésitez pas à me laisser vos coordonnées. 👋
           </div>
 
           <div className="messages">

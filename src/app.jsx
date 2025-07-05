@@ -11,23 +11,28 @@ import './styles/main.scss';
 function App() {
   return (
     <div className="page-container">
-      <IntroSection />
-      <ContactButton />
-<DiscordChatBox />
-      <div className="main-layout">
-        <div className="content-row">
-          <div className="content-box">
+      <header className="header-section">
+        <IntroSection />
+        <div className="header-actions">
+          <ContactButton />
+          <DiscordChatBox />
+        </div>
+      </header>
+
+      <main className="main-layout">
+        <section className="content-box project-section">
+          <SectionProjet />
+        </section>
+
+        <section className="content-row">
+          <div className="content-box portfolio-section">
             <PortfolioGrid />
           </div>
-          <div className="content-box">
+          <div className="content-box tech-section">
             <TechLogos />
           </div>
-        </div>
-
-        <div className="content-box">
-          <SectionProjet />
-        </div>
-      </div>
+        </section>
+      </main>
     </div>
   );
 }

@@ -10,12 +10,12 @@ export default function IntroSection() {
         className="intro-image"
       />
       <div className="intro-text">
-        <h1>Benoit Oclock</h1>
+        <h1>Benoit Lemaistre</h1>
         <p>Développeur Fullstack Junior</p>
         <p>On arrête jamais d'apprendre !</p>
         <p>
           Pour faire suite à ma formation de Développeur web et accessibilité à
-          l'école O'clock je suis à la recherche d'un stage.
+          l'école O'clock je suis à la recherche d'un stage à partir du 23 Juillet 2025 
         </p>
       </div>
     </section>

@@ -3,20 +3,22 @@
   align-items: center;
   gap: 20px;
   padding: 40px 20px;
-  background: linear-gradient(135deg, #6b8ce3, #88b5f9);
-  color: white;
-  border-radius: 15px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.95), rgba(248, 250, 252, 0.9));
+  backdrop-filter: blur(10px);
+  color: #1a202c;
+  border-radius: 20px;
   max-width: 900px;
   margin: 30px auto;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
-  transition: background 0.3s ease;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease;
   
   // Pour mobiles, on passe en colonne
   @media (max-width: 600px) {
     flex-direction: column;
     padding: 30px 15px;
     max-width: 95%;
-    background: linear-gradient(135deg, #88b5f9, #6b8ce3);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(248, 250, 252, 0.85));
   }
 }
 
@@ -24,9 +26,9 @@
   width: 120px;
   height: 120px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 3px solid rgba(102, 126, 234, 0.6);
   object-fit: cover;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 16px rgba(102, 126, 234, 0.3);
   
   @media (max-width: 600px) {
     width: 100px;
@@ -45,6 +47,7 @@
     margin: 0 0 10px 0;
     font-size: 2rem;
     font-weight: 700;
+    color: #1a202c;
     
     @media (max-width: 600px) {
       font-size: 1.7rem;
@@ -56,13 +59,34 @@
     margin: 0;
     font-size: 1.2rem;
     font-weight: 500;
+    color: #2d3748;
+    line-height: 1.6;
+    
     &:not(:last-child) {
       margin-bottom: 0.5rem;
+    }
+    
+    // Style spécial pour le titre "Développeur Fullstack Junior"
+    &:first-of-type {
+      color: #667eea;
+      font-weight: 600;
+      font-size: 1.3rem;
+    }
+    
+    // Style pour "On arrête jamais d'apprendre !"
+    &:nth-of-type(2) {
+      color: #4a5568;
+      font-style: italic;
+      font-weight: 400;
     }
     
     @media (max-width: 600px) {
       font-size: 1rem;
       text-align: center;
+      
+      &:first-of-type {
+        font-size: 1.1rem;
+      }
     }
   }
 }

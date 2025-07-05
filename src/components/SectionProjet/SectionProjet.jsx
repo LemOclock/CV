@@ -3,16 +3,22 @@ import "./SectionProjet.scss";
 
 const projects = [
   {
+    title: "Projet de fin de formation - En développement continu",
+    description: "Projet toujours en cours et pas entièrement à jour, mais déjà en ligne avec des fonctionnalités partiellement opérationnelles",
+    imageUrl: "https://i.imgur.com/Iw0pOwn.png",
+    link: "https://lapinceisfront.vercel.app/",
+    linkText: "Découvrir le projet"
+  },
+  {
     title: "Portfolio",
     imageUrl: "https://i.imgur.com/u7PqwxR.png",
+    link: "https://cv-nu-lilac.vercel.app/",
+    linkText: "Voir le portfolio"
   },
+
   {
-    title: "Projet de fin de formation (en cours)",
-    imageUrl: "https://i.imgur.com/zSqDhrd.png",
-  },
-  {
-    title: "Projet 3",
-    imageUrl: "https://via.placeholder.com/600x400?text=Projet+3",
+    title: "Mon prochain projet c'est avec vous ! ;) ",
+    imageUrl: "https://i.imgur.com/PuvglgE.gif",
   },
 ];
 
@@ -30,13 +36,26 @@ export default function SectionProjet() {
     setCurrentIndex((prev) => (prev + 1) % projects.length);
   };
 
-  const { title, imageUrl } = projects[currentIndex];
+  const { title, imageUrl, link, linkText, description } = projects[currentIndex];
 
   return (
     <section className="section-projet-container" aria-label={`Projet courant : ${title}`}>
       <div className={`project-card ${fade ? "fade-in" : "fade-out"}`}>
         <img src={imageUrl} alt={`Image du ${title}`} className="project-image" />
         <h2 className="project-title">{title}</h2>
+        {description && (
+          <p className="project-description">{description}</p>
+        )}
+        {link && linkText && (
+          <a
+            href={link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="project-link"
+          >
+            {linkText}
+          </a>
+        )}
         <p className="project-index">{currentIndex + 1} / {projects.length}</p>
 
         <div
